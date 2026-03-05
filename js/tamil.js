@@ -3,7 +3,7 @@ SC.initialize({
   client_id: 'a3e059563d7fd3372b49b37f00a00bcf'
 });
 $(document).ready(function() {
-    SC.stream('/tracks/318338126',function(sound){
+    SC.stream('https://open.spotify.com/track/2nw99OdSVWFWzEdbYuoOer',function(sound){
          $('#start1').click(function(e) {
            e.preventDefault();
            sound.start();
@@ -226,3 +226,4 @@ $(document).ready(function() {
     });
 
 });
+
